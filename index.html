@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Job Aplication Form</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Fill Up The Form</legend>
+        <h1>Online Job Aplication From</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullname">Enter Full Name:</label><br>
+                <input type="text" id="fullname" name="fname" required></input><br><br>
+
+                <label for="nid">Enter NID Number:</label><br>
+                <input type="text" id="nid" name="nid" required></input><br><br>
+
+                <label for="email">Enter Email:</label><br>
+                <input type="email" id="email" name="email" required></input><br><br>
+
+                <label for="phone">Enter Phone Number:</label><br>
+                <input type="phone" id="phone" name="phone" required></input><br><br>
+
+                <label for="dob">Enter Date of Birth:</label><br>
+                <input type="date" id="bob" name="dob" required></input><br><br>
+
+                <label>Select Gender:</label><br><br>
+
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male"></input><br>
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female"></input><br>
+
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="other"></input><br>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Job Information </legend>
+
+                <label>Position Applied For:</label><br><br>
+                <select name="position">
+                    <option value="swf" selected>Software Developer</option>
+                    <option value="wd"> Web Designer </option>
+                    <option value="sd">Software Developer</option>
+                    <option value="ne"> Network Engineer </option>
+                    <option value="da">Database Administrator</option>
+                    <option value="iso">IT Support Officer </option>
+                </select>
+                <br>
+                <br><br>
+                <label>Position Applied For:</label><br><br>
+                <select name="experience">
+                    <option value="frasher">Frasher</option>
+                    <option value="1-2">1-2 Years</option>
+                    <option value="3-5"> 3-5 Years </option>
+                    <option value="5+">More then 5 years</option>
+                </select>
+                <br><br><br>
+
+                <label>Select Skills:</label><br><br>
+                <label for="html">HTML</label>
+                <input type="checkbox" name="skill" value="html" id="html"></input>
+                <label for="css">CSS</label>
+                <input type="checkbox" name="skill" value="css" id="css"></input>
+                <label for="js">JavaScript</label>
+                <input type="checkbox" name="skill" value="js" id="js"></input>
+                <label for="py">Python</label>
+                <input type="checkbox" name="skill" value="py" id="py"></input>
+                <label for="sql">SQL</label>
+                <input type="checkbox" name="skill" value="sql" id="sql"></input>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Educational Information</legend>
+                <label for="hq">Highest Qualification:</label><br>
+                <input type="text" id="hq" name="hq" required></input><br><br>
+
+                <label for="uni"> University/College Name :</label><br>
+                <input type="text" id="uni" name="uni" required></input><br><br>
+
+                <label for="year">Graduation Year:</label><br>
+                <input type="date" id="year" name="year" required></input><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="file">Upload Resume/CV :</label><br>
+                <input type="file" id="file" name="file" required></input><br><br>
+
+                <label for="cvl"> Cover Letter :</label><br>
+                <textarea id="cvl" name="cvl" required maxlength="300"></textarea><br><br>
+
+                <label for="address">Current Address :</label><br>
+                <input type="text" id="address" name="address" required></input><br><br>
+            </fieldset>
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <input type="reset" value="Reset">
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
